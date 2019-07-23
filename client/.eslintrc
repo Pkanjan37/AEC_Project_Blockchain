@@ -1,0 +1,22 @@
+{
+  "extends": ["eslint:recommended", "airbnb"],
+  "rules": {
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "comma-dangle": ["error", {"functions": "never"}],
+    "no-underscore-dangle": 0,
+    "no-nested-ternary": 0,
+    "radix": 0,
+    # TODO: invent proptype checking
+    "react/prop-types": 0,
+    "jsx-a11y/no-static-element-interactions": 0
+  },
+  "globals": {},
+  "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+  }
+}
