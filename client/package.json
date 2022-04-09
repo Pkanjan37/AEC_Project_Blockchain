@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.18.1",
+    "moment": "^2.29.2",
     "react": "^15.6.1",
     "react-css-modules": "^4.3.0",
     "react-dom": "^15.6.1",
